@@ -1,0 +1,33 @@
+body {
+    font-family: 'Karla', sans-serif;
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-sizing: border-box;
+}
+
+.input-group {
+    width: 70%;
+    margin: 0px auto;
+}
+.header {
+    margin-top: 30vh;
+    text-align: center;
+    background-color: none;
+}
+
+#addTaskButton {
+    background-color: rgb(250, 24, 118);
+    color: black;
+}
+
+.btn-danger{
+    background-color: rgb(252, 97, 97);
+}
+.btn-success {   
+    background-color: rgb(28, 248, 164);
+}
+
+.taskContainer {
+    /* margin: 0; */
+}
